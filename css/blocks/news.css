@@ -1,0 +1,16 @@
+.news_header {
+    margin-bottom: 51px;
+}
+
+.news__list {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin-bottom: 52px;
+}
+
+.news__item {
+    display: inline-block;
+    vertical-align: top;
+}
+

@@ -1,0 +1,93 @@
+.inner__content--background--gray {
+    padding-top: 62px;
+    background: #F4F5F5;
+    padding-bottom: 98px;
+}
+
+.form__row {
+    display: flex;
+    margin-bottom: 26px;
+}
+
+.form__input {
+    flex: 1;
+    margin-right: 28px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background: #fff;
+    padding: 22px 30px;
+    font-size: 18px;
+    color: #1A1B1E;
+}
+
+.form__input--textarea {
+    height: 235px;
+    width: 1142px;
+}
+
+.form__controls {
+    display: flex;
+}
+
+.form__controls-title {
+    width: 37.8%;
+    color: #1A1B1E;
+    font-size: 18px;
+    padding-top: 6px;
+}
+
+.controls {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.form__input:focus {
+    outline: none;
+    border-color: #F5170E;
+}
+
+.form__input:last-child {
+    margin-right: 0px;
+}
+
+.form__input::placeholder {
+    color: #666666;
+}
+
+.controls__elem {
+    cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+    background: #B9EAE4;
+}
+
+.controls__checkbox:focus ~ .controls__tag {
+    background: #B9EAE4;
+}
+
+.controls__checkbox {
+    /* display: none; */
+    appearance: none;
+    -ms-progress-appearance: none;
+}
+
+.controls__tag {
+    border: 2px solir transparent;
+}
+
+.form__btn {
+    margin-right: 17px;
+}
+
+.form__btn:last-child {
+    margin-right: 0px;
+}
+
+.form__btns {
+    display: flex;
+    justify-content: flex-end;
+}

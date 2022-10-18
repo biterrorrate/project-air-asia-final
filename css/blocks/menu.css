@@ -1,0 +1,25 @@
+.menu__main {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 51px;
+}
+.menu__services {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 51px;
+}
+.menu__reviews {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu__link {
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menu__link:hover {
+    color: #da0100;
+    text-decoration: none;
+}

@@ -1,0 +1,32 @@
+.top-line {
+    min-height: 411px;
+    background: hsl(196, 100%, 6%);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 23px;
+    background: hsl(196, 100%, 6%) url("./../../img/services/top-line.png") center center no-repeat;
+}
+
+.top-line__title--reviews {
+    padding-bottom: 24px;
+    padding-left: 4px;
+}
+
+.top-line__container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-line__title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 37px;
+}
+
+.services__desc {
+    font-size: 16px;
+    color: black;
+}

@@ -1,0 +1,41 @@
+.single-news {
+    position: relative;
+}
+
+.single-news__item:last-child {
+    margin-right: 0px;
+}
+
+.single-news__item-pic {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.single-news__content {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 26px 29px;
+    min-height: 166px;
+}
+
+.single-news__date {
+    font-size: 14px;
+}
+
+.single-news__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 14px;
+}
+
+.single-news_description {
+    font-size: 16px;
+}
+
+.single-news__list {
+    margin-bottom: 52px;
+}

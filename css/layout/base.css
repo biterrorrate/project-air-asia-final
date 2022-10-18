@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.42;
+    font-family: 'Open Sans', Helvetica;
+    background: hsl(196, 100%, 6%);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+p {
+    margin-top: 0px;
+}
+
+button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing:border-box;
+    /* margin-top: 0px; */
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.wrapper {
+    overflow: hidden;
+    min-width: 1200px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper__content {
+    flex: 1;
+}
+
+.main-page-wrapper {
+    background: url('./../../img/decore/1.png') center top no-repeat, url("./../../img/decore/2.png") center bottom 189px no-repeat;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1140px;
+}

@@ -1,0 +1,17 @@
+.contact {
+    font-style: normal;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__description {
+    color: #9A9A9A;
+    font-size: 11px;
+}
+
+.contact__tel  {
+    text-decoration: none;
+    font-size: 26px;
+}
+
